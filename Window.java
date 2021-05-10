@@ -19,7 +19,7 @@ public class Window extends JPanel implements ActionListener{
 	
 	public static void main(String[] args) {
 		JFrame w = new JFrame("The game"); 
-	    w.setSize(500, 500);
+	    w.setSize(500, 500); //feel free to change anything btw
 	    
 	    Container c = w.getContentPane();
 	    c.add(new Window()); 
